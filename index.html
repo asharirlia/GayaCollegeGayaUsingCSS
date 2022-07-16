@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaya College Gaya ||| CSS  Positioning Example</title>
+<style>
+    #bannerArea{
+        width: 100%;
+        height: 100px;
+        background-color: rgba(63, 187, 245, 0.911);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #importantLinkArea{
+        width: 15%;
+        height: 500px;
+        background-color: cornsilk;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        font-size: larger;
+        color: navy;
+    }
+    #aboutSchoolArea{
+        width: 40%;
+        height: 500px;
+        background-color: darkgrey;
+        position: absolute;
+        top: 100px;
+        left: 15%;
+        overflow: scroll;
+    }
+    #principalArea{
+        width: 30%;
+        height: 250px;
+        background-color: darkkhaki;
+        position:absolute;
+        top: 100px;
+        left: 55%;
+    }
+    #teachersArea{
+        width: 30%;
+        height: 250px;
+        background-color: darksalmon;
+        position: absolute;
+        top: 350px;
+        left: 55%;
+    }
+    #noticeBoardArea{
+        width: 15%;
+        height: 500px;
+        background-color:wheat;
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        font-size: larger;
+        color: navy;
+    }
+    #footerArea
+    {
+        width: 100%;
+        height: 50px;
+        background-color:black;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        color: white;
+        
+    }
+    #link{
+        color: white;
+    }
+    #image{
+        width: 50px;
+        height: 50px;
+        position: sticky;
+        right: 50px;
+        bottom: 50px;
+    }
+    #header{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white;
+       /* text-align: center;*/
+        font-size: 60px;
+        font-weight: bolder;
+
+    }
+    h2{
+        font: bold;
+        background-color: palegoldenrod;
+        color:red;
+        text-align: center;
+        font-family: serif;
+    }
+    #innerLink{
+        color: navy;
+        font: larger;
+    }
+</style>
+</head>
+<body>
+    <div id="bannerArea">
+        <img src="gayacollegelogo copy.png" alt="Gaya College Gaya " title="Gaya College Gaya" width="100px" style="float: left;"><br/>
+        <em id="header" style="margin-left: 100px;">Gaya College Gaya</em>  
+        <em style="float: right; color: white; font-size: larger; text-shadow: black;">For Online Portal Related Query- 7654630685,6207691081</em>
+       <a href="#" style="position: absolute; bottom: 20px; right: 100px; font-size: larger; border-radius: 10px; border-color: darkorange; border-width: 4px; padding: 10px; font-weight: bolder;">Login</a>
+    </div>
+
+    <div id="importantLinkArea">
+        <h3 style="color: red;">Important Links:</h3>
+        <ul>
+            <li><a id="innerLink" href="#">Courses & Fees</a></li> <br/>
+            <li><a id="innerLink" href="#">Hostel & Cafeteria</a></li> <br/>
+            <li><a id="innerLink" href="#">PG Admission</a></li> <br/>
+            <li>PG Exam Form</li><br/>
+            <li>Intermediate Admission</li><br/>
+            <li>Intermediate Examination Form</li><br/>
+            <li>Intermediate Registration</li><br/>
+            <li>UG Admisiion (BA, BCOM, BSc)</li><br/>
+        </ul>
+    </div>
+    <div id="aboutSchoolArea">
+        <h2>WELCOME TO GAYA COLLEGE GAYA</h2>
+        <img src="120342-Gaya-College-Gaya-(2).jpg" alt="gayacollege" width="520px" height="300px">
+        <p style="color: navy; font-size: larger;"> <b>
+            Gaya College </b>is an educational institution located in Gaya, Bihar, India. It was founded in 1944 in the home of Akhauri Prem Narayan.The first President of governing Council was Dr. Anugrah Narain Singh, the first Deputy Chief Minister of the state. It is a constituent of Magadh University at Bodh-Gaya. <br/> Gaya college gaya is top college in India, this college ranked Nac garde A and listed under top 10 colleges in India This college have big campus and much more, and also Dr. A.P.J. abdul kalam give also award 13th secince conference of india.</p>    
+    </div>
+    
+    <div id="principalArea">
+        <h3 style="font-size: larger; background-color: lavenderblush; text-align: center; color: navy;">Principal</h3>
+        <img src="" alt="principal" >
+        <p style="font-size: larger; color: maroon;">Prof.(Dr.) D K Sinha</p>
+    </div>
+    
+    <div id="teachersArea">
+        <h3 style="font-size: larger; background-color: lavenderblush; text-align: center; color: navy;">Teachers:</h3>
+       
+        <p>will update soon...</p>
+    </div>
+    
+    <div id="noticeBoardArea">
+        <marquee style="color: red;">Notice Board</marquee>
+        <marquee direction="up" behaviour="scroll" scrollamount="1" height="100px"> Sent-Up Exam result 2022</marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="1" height="100px">College Annual Program 2022</marquee>
+        <marquee behavior=" scroll" direction="up" scrollamount="1" height="100px">UG Admission 2022</marquee>
+        <marquee behavior="scroll" direction="up" scrollamount="1" height="100px">BA-part 2 exam form 2022</marquee>
+        <a href="#" style="position: absolute; right: 0%; bottom: 0%;">--read more</a>
+    </div>
+    
+    <div id="footerArea">
+        <br/>
+        <a id="link" href="#" style="font-size: larger;">Terms&Condition</a>&nbsp;&nbsp;&nbsp;
+        <a href="#" id="link" style="font-size: larger;">Help&Support</a>&nbsp;&nbsp;&nbsp;
+        <em style="float: right; font-size: larger;">&copy;2022 Gaya College Gaya ||All right reserved</em>
+    </div>
+    
+    
+</body>
+</html>
